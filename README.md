@@ -1,4 +1,4 @@
-# nemoclaw-setup
+# nemoclaw-setup with ollama locally
 Guide to setup NemoClaw locally with Ollama
 
 NVIDIA NemoClaw is a tool designed to run OpenClaw autonomous AI agents securely within a sandboxed environment, often utilizing local LLMs via Ollama. It is geared towards Linux (Ubuntu 22.04+ recommended) and requires Node.js, Docker, and an NVIDIA API key.
