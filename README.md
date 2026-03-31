@@ -26,18 +26,18 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
        sudo systemctl daemon-reload
        sudo systemctl restart ollama_
 
-    c. Pull a Model: Download a model suitable for your GPU (e.g., qwen3.5 or llama3):
+    c. Pull a Model: Download a model suitable for your GPU (e.g., qwen3.5 or llama3):<br>
        _ollama pull qwen3.5:4b_
 
-3.  **Install Docker**
+3.  **Install Docker**<br>
     https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
-4.  **Install NemoClaw**
-    Use the official one-line installer to install NemoClaw, which will also prompt you to configure the sandbox. 
+4.  **Install NemoClaw**<br>
+    Use the official one-line installer to install NemoClaw, which will also prompt you to configure the sandbox. <rb>
     _curl -fsSL https://nvidia.com/nemoclaw.sh | sudo bash_
 
-5.  **Onboarding and Sandbox Setup**
-    Run the command:
+5.  **Onboarding and Sandbox Setup**<br>
+    Run the command:<br>
     _nemoclaw onboard_
     
     The installer will initiate an interactive onboarding wizard. 
@@ -46,8 +46,8 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
     c. Model Selection: Choose the model you pulled in Step 2.
     d. Finish: Once completed, the script may ask to update your path or require you to open a new terminal.
 
-6.  Verify Installation
-    Verify that nemoclaw is correctly installed:
+6.  **Verify Installation**<br>
+    Verify that nemoclaw is correctly installed:<br>
     _source ~/.bashrc
     nemoclaw --help_
 
