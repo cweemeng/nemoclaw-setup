@@ -33,7 +33,7 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
     https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
 4.  **Install NemoClaw**<br>
-    Use the official one-line installer to install NemoClaw, which will also prompt you to configure the sandbox. <rb>
+    Use the official one-line installer to install NemoClaw, which will also prompt you to configure the sandbox. <br>
     _curl -fsSL https://nvidia.com/nemoclaw.sh | sudo bash_
 
 5.  **Onboarding and Sandbox Setup**<br>
@@ -48,7 +48,7 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
 
 6.  **Verify Installation**<br>
     Verify that nemoclaw is correctly installed:<br>
-    _source ~/.bashrc
+    _source ~/.bashrc <br>
     nemoclaw --help_
 
 After nemoclaw onboard or nemoclaw <name> connect, the gateway is forwarded to your host on port 18789.
