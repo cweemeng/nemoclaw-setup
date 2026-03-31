@@ -16,11 +16,11 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
 2.  **Install and Configure Ollama**
     NemoClaw routes local inference through Ollama. 
 
-    a. Install Ollama
+    a. Install Ollama <br>
        _curl -fsSL https://ollama.com/install.sh | sh_
 
-    b. Configure Ollama for Network Access: NemoClaw runs in a Docker container and needs to reach Ollama on the host. 
-       Configure it to listen on all interfaces:
+    b. Configure Ollama for Network Access: NemoClaw runs in a Docker container and needs to reach Ollama on the host. <br>
+       Configure it to listen on all interfaces:<br>
        _sudo mkdir -p /etc/systemd/system/ollama.service.d
        echo -e '[Service]\nEnvironment="OLLAMA_HOST=0.0.0.0:11434"' | sudo tee /etc/systemd/system/ollama.service.d/override.conf
        sudo systemctl daemon-reload
