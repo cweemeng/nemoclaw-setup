@@ -14,7 +14,7 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
     NVIDIA API Key: Obtained from build.nvidia.com. 
 
 2.  **Install and Configure Ollama**
-    NemoClaw routes local inference through Ollama. 
+    NemoClaw routes local inference through Ollama. <br><br>
 
     a. Install Ollama <br>
     --------------------------------------------------------------- <br>
@@ -46,11 +46,11 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
     --------------------------------------------------------------- <br>
             _nemoclaw onboard_ <br>
     --------------------------------------------------------------- <br>
-    The installer will initiate an interactive onboarding wizard. 
-    a. Onboarding: The wizard will walk you through **creating a sandbox**, applying security policies, and configuring inference.
-    b. Inference Provider: When asked, select Ollama as your provider.
-    c. Model Selection: Choose the model you pulled in Step 2.
-    d. Finish: Once completed, the script may ask to update your path or require you to open a new terminal.
+    The installer will initiate an interactive onboarding wizard. <br>
+    a. Onboarding: The wizard will walk you through **creating a sandbox**, applying security policies, and configuring inference.<br>
+    b. Inference Provider: When asked, select Ollama as your provider.<br>
+    c. Model Selection: Choose the model you pulled in Step 2.<br>
+    d. Finish: Once completed, the script may ask to update your path or require you to open a new terminal.<br>
 
 6.  **Verify Installation**<br>
     Verify that nemoclaw is correctly installed:<br>
@@ -59,4 +59,4 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
            nemoclaw --help_<br>
     --------------------------------------------------------------- <br>
 
-After nemoclaw onboard or nemoclaw <name> connect, the gateway is forwarded to your host on port 18789.
+After nemoclaw onboard or nemoclaw <name> connect, the gateway is forwarded to your host on port 18789.<br>
