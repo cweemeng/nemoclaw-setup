@@ -14,13 +14,13 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
     NVIDIA API Key: Obtained from build.nvidia.com. 
 
 2.  **Install and Configure Ollama**
-    NemoClaw routes local inference through Ollama. <br><br>
+    NemoClaw routes local inference through Ollama. <br>
 
-    a. Install Ollama <br>
+    a. _Install Ollama_ <br>
     --------------------------------------------------------------- <br>
              _curl -fsSL https://ollama.com/install.sh | sh_ <br>
     --------------------------------------------------------------- <br>
-    b. Configure Ollama for Network Access: NemoClaw runs in a Docker container and needs to reach Ollama on the host. <br>
+    b. _Configure Ollama for Network Access_: NemoClaw runs in a Docker container and needs to reach Ollama on the host. <br>
        Configure it to listen on all interfaces:<br>
     --------------------------------------------------------------- <br>
             _sudo mkdir -p /etc/systemd/system/ollama.service.d
@@ -28,7 +28,7 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
             sudo systemctl daemon-reload
             sudo systemctl restart ollama_
     --------------------------------------------------------------- <br>
-    c. Pull a Model: Download a model suitable for your GPU (e.g., qwen3.5 or llama3):<br>
+    c. _Pull a Model_: Download a model suitable for your GPU (e.g., qwen3.5 or llama3):<br>
     --------------------------------------------------------------- <br>
              _ollama pull qwen3.5:4b_ <br>
     --------------------------------------------------------------- <br>
