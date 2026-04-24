@@ -60,3 +60,10 @@ Here is the step-by-step guide to installing NemoClaw with Ollama.
     --------------------------------------------------------------- <br>
 
 After nemoclaw onboard or nemoclaw <name> connect, the gateway is forwarded to your host on port 18789.<br>
+
+Now, you can connect to the sandbox instance that you just provisoned -<br>
+    nemoclaw <sandbox instance name> connect <br>
+<br>
+Inside the sandbox shell, launch the OpenClaw terminal user interface - <br>
+    openclw tui <br>
+<br>
